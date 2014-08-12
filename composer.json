@@ -13,9 +13,16 @@
       "email": "ehtnam6@gmail.com"
     }
   ],
+    "repositories": [
+        {
+            "name" : "illuminate",
+            "type":"git",
+            "url":"https://github.com/revinate/support"
+        }
+    ],  
   "require": {
     "php": ">=5.3.0",
-    "illuminate/support": "~4",
+    "illuminate/support": "dev-master",
     "patchwork/utf8": "1.1.*"
   },
   "autoload": {
